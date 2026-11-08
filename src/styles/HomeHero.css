@@ -1,0 +1,137 @@
+.hero-container {
+    position: relative;
+    width: 100%;
+    min-height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.hero-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.hero-txt {
+    position: relative;
+    z-index: 1;
+    width: 45%;
+    margin-left: 6%;
+}
+
+.hero-txt h3 {
+    color: #287c91;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.hero-txt h1 {
+    color: #102f4b;
+    font-size: 46px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero-txt p {
+    color: #526575;
+    font-size: 16px;
+    line-height: 1.7;
+    max-width: 440px;
+    margin-bottom: 25px;
+}
+
+.hero-btns {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 6%;
+    margin-top: 0;
+}
+
+.hero-btns button {
+    padding: 15px 27px;
+    border-radius: 30px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.hero-btns a button {
+    background-color: #075477;
+    color: white;
+}
+
+.hero-btns a button:hover {
+    background-color: #103b59;
+}
+
+.hero-btns > button {
+    background-color: white;
+    color: #123b57;
+}
+
+.hero-btns > button:hover {
+    background-color: #e8f3f7;
+}
+
+
+@media (max-width: 900px) {
+    .hero-container {
+        min-height: 480px;
+    }
+
+    .hero-txt {
+        width: 50%;
+    }
+
+    .hero-txt h1 {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero-container {
+        min-height: 550px;
+        justify-content: flex-start;
+    }
+
+    .hero-img {
+        object-position: 65% center;
+    }
+
+    .hero-txt {
+        width: 85%;
+        margin: 45px 0 0 5%;
+    }
+
+    .hero-txt h1 {
+        font-size: 29px;
+    }
+
+    .hero-txt p {
+        font-size: 14px;
+    }
+
+    .hero-btns {
+        margin-left: 5%;
+        gap: 10px;
+    }
+
+    .hero-btns button {
+        padding: 12px 16px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,146 @@
+
+
+.signin-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #e8f5f5, #eaf2fa);
+    font-family: Arial, sans-serif;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+
+
+.signin-header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.signin-title {
+    color: #176b78;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.signin-subtitle {
+    color: #607d8b;
+    font-size: 16px;
+}
+
+
+
+.signin-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(30, 90, 110, 0.12);
+    box-sizing: border-box;
+}
+
+.signin-inputs input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #cbdfe2;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+.signin-inputs input:focus {
+    border-color: #239b8e;
+    box-shadow: 0 0 5px rgba(35, 155, 142, 0.2);
+}
+
+
+.signin-btn {
+    width: 100%;
+    max-width: 400px;
+}
+
+.signin-btn button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #197b86;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.signin-btn button:hover {
+    background-color: #12645e;
+}
+
+
+.signin-error {
+    color: #d9534f;
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .signin-container {
+        padding: 20px;
+    }
+
+    .signin-title {
+        font-size: 26px;
+    }
+
+    .signin-inputs {
+        max-width: 100%;
+        padding: 25px;
+    }
+
+    .signin-btn {
+        max-width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .signin-title {
+        font-size: 23px;
+    }
+
+    .signin-subtitle {
+        font-size: 14px;
+    }
+
+    .signin-inputs {
+        padding: 20px;
+        gap: 13px;
+    }
+
+    .signin-inputs input {
+        padding: 12px;
+        font-size: 13px;
+    }
+
+    .signin-btn button {
+        padding: 13px;
+        font-size: 14px;
+    }
+
+    .signin-error {
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,22 @@
+const users=[
+    {id:1,name:"Ahmad Younis",email:"ahmad@gmail.com",password:"123456",phone:"71234567"},
+    {id:2,name:"Ali Fares",email:"ali.fares@gmail.com",password:"580472",phone:"70456785"},
+    {id:3,name:"Sarah Kashakesh",email:"sarah.kashakesh@gmail.com",password:"179537",phone:"67542467"},
+    {id:4,name:"Mounir Bazzi",email:"mounir.bazzi@gmail.com",password:"098875",phone:"98654326"},
+    {id:5,name:"Gazal Farhat",email:"Gazal.Farhat@gmail.com",password:"335577",phone:"09642765"},
+    {id:6,name:"Malak Hoballah",email:"malak.hoballah@gmail.com",password:"110086",phone:"09753267"},
+    {id:7,name:"Fatima Daher",email:"fatima.daher@gmail.com",password:"563876",phone:"09873456"},
+    {id:8,name:"Razan Ahmad",email:"razan.ahmad@gmail.com",password:"157896",phone:"87643245"},
+    {id:9,name:"Faten Issa",email:"faten.issa@gmail.com",password:"096543",phone:"67543298"},
+    {id:10,name:"Mohammad Ballout",email:"mohamad.ballout@gmail.com",password:"453534",phone:"09834561"},
+    {id:11,name:"Hussein Abdallah",email:"hussein.abdallah@gmail.com",password:"998765",phone:"12457805"},
+    {id:12,name:"Narjes Houmani",email:"narjes.houmani@gmail.com",password:"008865",phone:"71564321"},
+    {id:13,name:"Noor Alaaeddine",email:"noor.alaaeddine@gmail.com",password:"224587",phone:"87663450"},
+    {id:14,name:"Fathi Mazeh",email:"fathi.mazeh@gmail.com",password:"357987",phone:"71796543"},
+    {id:15,name:"Haifa Khalaf",email:"haifa.khalaf@gmail.com",password:"143567",phone:"90873453"},
+    {id:16,name:"Ahmad Mando",email:"ahmad.mando@gmail.com",password:"887654",phone:"14325679"},
+    {id:17,name:"Batoul Haidar",email:"batoul.haidar@gmail.com",password:"098732",phone:"25674532"},
+    {id:18,name:"Ali Atwi",email:"ali.atwi@gmail.com",password:"123456",phone:"56879087"},
+    {id:19,name:"Jessika Malek",email:"jessika.malek@gmail.com",password:"581038",phone:"71234067"},
+];
+export default users;

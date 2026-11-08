@@ -1,0 +1,172 @@
+
+
+
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #e8f5f5, #eaf2fa);
+    font-family: Arial, sans-serif;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+
+
+.login-card {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.login-card h1 {
+    color: #176b78;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.login-card span {
+    color: #607d8b;
+    font-size: 16px;
+}
+
+
+
+.inputs-group {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(30, 90, 110, 0.12);
+    box-sizing: border-box;
+}
+
+.inputs-group input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #cbdfe2;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+.inputs-group input:focus {
+    border-color: #239b8e;
+    box-shadow: 0 0 5px rgba(35, 155, 142, 0.2);
+}
+
+
+
+.error-box {
+    color: #d9534f;
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+
+.buttons-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 10px;
+}
+
+.login-btn,
+.secondary-btn {
+    width: 100%;
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+
+.login-btn {
+    background-color: #197b86;
+    color: white;
+    border: none;
+}
+
+.login-btn:hover {
+    background-color: #12645e;
+}
+
+
+
+.secondary-btn {
+    background-color: white;
+    color: #197b86;
+    border: 1px solid #197b86;
+}
+
+.secondary-btn:hover {
+    background-color: #e5f4f2;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .login-container {
+        padding: 20px;
+    }
+
+    .login-card h1 {
+        font-size: 26px;
+    }
+
+    .inputs-group {
+        max-width: 100%;
+        padding: 25px;
+    }
+
+    .buttons-group {
+        max-width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .login-card h1 {
+        font-size: 23px;
+        line-height: 1.4;
+    }
+
+    .login-card span {
+        font-size: 14px;
+    }
+
+    .inputs-group {
+        padding: 20px;
+        gap: 13px;
+    }
+
+    .inputs-group input {
+        padding: 12px;
+        font-size: 13px;
+    }
+
+    .login-btn,
+    .secondary-btn {
+        padding: 13px;
+        font-size: 14px;
+    }
+
+    .error-box {
+        font-size: 13px;
+    }
+}
